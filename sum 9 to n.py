@@ -1,6 +1,5 @@
 def sum():
-    print("what is n: ")
-    n=int(input())
+    n=int(input("Please Enter your number:"))
     sum=0
     for i in range(n+1):
         sum+=i
